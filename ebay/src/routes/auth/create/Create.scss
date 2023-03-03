@@ -1,0 +1,100 @@
+.create-section{
+    position: relative;
+    display: grid;
+    place-items: center;
+}
+.create-box{
+    display: grid;
+    place-items: center;
+    height: 70vh;
+}
+.create-image{
+    position: absolute;
+    width: 100px;
+    top: 1%;
+    left: 1%;
+}
+.careate-sing__link{
+    position: absolute;
+    top: 7%;
+    right: 1%;
+}
+.create-title{
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 46px;
+    text-align: center;
+    color: #191919;
+}
+.create-list{
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    gap: 0 150px;
+}
+.create-line{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    hr{
+        height: 160px;
+    }
+}
+.careate-sing__link{
+    display: flex;
+    align-items:center;
+    gap: 0 5px;
+}
+.create-form{
+    display: flex;
+    flex-direction: column;
+    gap: 24px 0;
+}
+.create-tabs{
+    display: flex;
+    align-items:center;
+    gap: 24px;
+}
+.create-lastName{
+    height: 40px;
+    background: #F7F7F7;
+    border: 1px solid #8F8F8F;
+    border-radius: 8px;
+    text-indent: 10px;
+}
+.create-btn{
+    height: 48px;
+    background: #C7C7C7;
+    border: 1px solid #C7C7C7;
+    border-radius: 24px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    color: #FFFFFF;
+    transition: 0.3s ease-in-out all;
+    &:hover{
+        background: #3665F3;
+    }
+}
+.create-google__btn{
+    width: 300px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 25px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    color: #000000;
+    padding: 1rem 0;
+    border: 1px solid #000000;
+    border-radius: 24px;
+    gap:0 35px;
+    svg{
+        font-size: 24px;
+    }
+}

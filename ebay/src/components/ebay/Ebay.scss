@@ -1,0 +1,59 @@
+.wrapper-ebay{
+    width: 100%;
+    &__box{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        gap: 0 17px;
+    }
+    &__list{
+        display: flex;
+        align-items: center;
+        width: 932px;
+        justify-content: space-between;
+    }
+    &__item{
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+        span{
+            font-weight: 400;
+            font-size: 11px;
+            line-height: 11px;
+            color: #707070;
+            padding-bottom: 4px;
+        }
+        h4{
+            font-weight: 700;
+            font-size: 20px;
+            line-height: 26px;
+            color: #191919;
+            padding-top: 16px;
+        }
+        p{
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 20px;
+            color: #707070;
+            padding-top: 7px;
+        }
+    }
+
+    &__image{
+            width: 478px;
+            height: 248px;
+    }
+    &__btn{
+        display: flex;
+        align-items:center;
+        gap: 0 10px;
+        padding: 12px 13px 12px 25px;
+        border: 1px solid;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 17px;
+        margin-top: 12px;
+        cursor: pointer;
+    }
+}
+

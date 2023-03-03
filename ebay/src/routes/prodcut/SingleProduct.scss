@@ -1,0 +1,137 @@
+.single-product {
+    background-color: #fff;
+    position: relative;
+}
+
+.single-product__wrapper {
+
+    display: flex;
+    padding: 60px 0;
+    gap: 0px 30px;
+
+    h1 {
+        font-size: 28px;
+        font-weight: bold;
+
+        span {
+            font-size: 24px;
+            font-weight: lighter;
+            margin-left: 30px;
+            background: #706e6e;
+            padding: 6px 15px;
+            color:#fff;
+            border-radius:5px;
+        }
+    }
+
+    p {
+        margin: 30px 0;
+        display: flex;
+        gap: 0 10px;
+        b {
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        span {
+            font-size: 18px;
+            color: gray;
+            letter-spacing: 1.1px;
+            background: #706e6e;
+            padding: 6px 15px;
+            color:#fff;
+            border-radius:5px;
+        }
+    }
+
+    .single-product__price {
+        display: block;
+        margin-bottom: 40px;
+        b{
+            font-size: 20px;
+            font-weight: bold;
+            color:#111;
+        }
+        span {
+            font-size: 18px;
+            font-weight: 600;
+            margin-left: 50px;
+            background: #706e6e;
+            padding: 6px 15px;
+            color:#fff;
+            border-radius:5px;
+        }
+    }
+
+}
+
+.single-product__wrapper:has(.search-loader) {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 50vh;
+    color: #002f32;
+}
+
+.single-product--info {
+    width: 50%;
+}
+
+.single-product--imageBox {
+    border: 1px solid #ccc;
+
+    img {
+        transition: 0.1s ease-in all;
+        max-width: 500px;
+        width: 100%;
+        min-height: 300px;
+        object-fit: contain;
+        cursor: pointer;
+
+        &:hover {
+            transform: scale(0.95);
+            border-radius: 8px;
+        }
+    }
+}
+
+.single-btn {
+    padding: 10px 49px;
+    color: #fff;
+    background: #0053A0;
+    border: 1px solid #0053A0;
+    border-radius: 20px;
+    font-size: 18px;
+    font-family: sans-serif;
+    font-weight: 600;
+    letter-spacing: 1.1px;
+    transition: 0.05s ease all;
+
+    &:hover {
+        background: transparent;
+        color: #000;
+    }
+
+    &:active {
+        opacity: 0.8;
+        color: #fff;
+        background: #0053A0;
+    }
+}
+.single-remove{
+    background:rgb(218, 232, 26);
+    padding: 10px 49px;
+    border-radius: 20px;
+    border:1px transparent;
+    font-size: 18px;
+    font-family: sans-serif;
+    font-weight: 600;
+    letter-spacing: 1.1px;
+    transition: 0.05s ease all;
+    color: #fff;
+
+    &:active {
+        opacity: 0.8;
+        background: rgb(218, 232, 26);
+    }
+}
